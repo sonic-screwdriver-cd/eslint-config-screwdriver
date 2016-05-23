@@ -4,7 +4,7 @@
   "description": "ESLint rules for screwdriver projects",
   "main": "index.js",
   "scripts": {
-    "pretest": "jscs .",
+    "pretest": "eslint .",
     "test": "jenkins-mocha --recursive"
   },
   "repository": {
@@ -30,8 +30,13 @@
   ],
   "devDependencies": {
     "chai": "^3.5.0",
-    "jenkins-mocha": "^2.6.0",
-    "jscs": "^3.0.3"
+    "jenkins-mocha": "^2.6.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.2",
+    "eslint-plugin-react": "^5.1.1"
+  }
 }
