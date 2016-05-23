@@ -1,9 +1,12 @@
-/*global describe, it */
-'use strict';
 const assert = require('chai').assert;
+const config = require('../index');
 
-describe('index test', function () {
-    it('fails', function () {
-        assert.isTrue(false);
+describe('index test', () => {
+    it('has rules', () => {
+        assert.isDefined(config.rules);
+    });
+
+    it('extends airbnb', () => {
+        assert.equal(config.extends, 'airbnb');
     });
 });
