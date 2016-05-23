@@ -1,5 +1,5 @@
 {
-  "name": "screwdriver-eslint-plugin-screwdriver",
+  "name": "eslint-config-screwdriver",
   "version": "0.0.1",
   "description": "ESLint rules for screwdriver projects",
   "main": "index.js",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:screwdriver-cd/eslint-plugin-screwdriver.git"
+    "url": "git@github.com:screwdriver-cd/eslint-config-screwdriver.git"
   },
-  "homepage": "https://github.com/screwdriver-cd/eslint-plugin-screwdriver",
-  "bugs": "https://github.com/screwdriver-cd/eslint-plugin-screwdriver/issues",
+  "homepage": "https://github.com/screwdriver-cd/eslint-config-screwdriver",
+  "bugs": "https://github.com/screwdriver-cd/eslint-config-screwdriver/issues",
   "keywords": [
     "screwdriver",
     "yahoo"
