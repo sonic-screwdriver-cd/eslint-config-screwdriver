@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-screwdriver",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ESLint rules for screwdriver projects",
   "main": "index.js",
   "scripts": {
