@@ -1,3 +1,4 @@
+'use strict';
 module.exports = {
     extends: 'airbnb',
     env: {
@@ -6,10 +7,14 @@ module.exports = {
         node: true,
         mocha: true
     },
+    parserOptions: {
+        sourceType: 'script'
+    },
     rules: {
         'comma-dangle': ['error', 'never'],
         indent: ['error', 4],
         'max-len': ['error', { code: 100, ignoreComments: true }],
+        'new-cap': ['error', { capIsNewExceptions: ['Given', 'When', 'Then'] }],
         'newline-after-var': ['error', 'always'],
         'newline-before-return': 'error',
         'no-bitwise': 'error',
@@ -20,6 +25,7 @@ module.exports = {
                 MethodDefinition: false,
                 ClassDeclaration: false
             }
-        }]
+        }],
+        strict: ['error', 'safe']
     }
 };
