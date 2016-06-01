@@ -19,6 +19,8 @@ module.exports = {
         'newline-before-return': 'error',
         'no-bitwise': 'error',
         'no-multiple-empty-lines': ['error', { max: 1 }],
+        'prefer-rest-params': 'off',
+        'prefer-spread': 'off',
         'require-jsdoc': ['error', {
             require: {
                 FunctionDeclaration: true,
