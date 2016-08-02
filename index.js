@@ -1,6 +1,6 @@
 'use strict';
 module.exports = {
-    extends: 'airbnb',
+    extends: 'airbnb-base',
     env: {
         browser: true,
         es6: true,
@@ -28,6 +28,12 @@ module.exports = {
                 ClassDeclaration: false
             }
         }],
-        strict: ['error', 'safe']
+        strict: ['error', 'safe'],
+        'import/no-extraneous-dependencies': ['error', {
+            devDependencies: true,
+            optionalDependencies: false,
+            peerDependencies: false
+        }],
+        'import/newline-after-import': ['off']
     }
 };
