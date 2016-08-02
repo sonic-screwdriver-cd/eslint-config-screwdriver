@@ -8,6 +8,6 @@ describe('index test', () => {
     });
 
     it('extends airbnb', () => {
-        assert.equal(config.extends, 'airbnb');
+        assert.equal(config.extends, 'airbnb-base');
     });
 });
