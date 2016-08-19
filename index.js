@@ -19,6 +19,7 @@ module.exports = {
         'newline-before-return': 'error',
         'no-bitwise': 'error',
         'no-multiple-empty-lines': ['error', { max: 1 }],
+        'no-param-reassign': ['error', { props: false }],
         'prefer-rest-params': 'off',
         'prefer-spread': 'off',
         'require-jsdoc': ['error', {
