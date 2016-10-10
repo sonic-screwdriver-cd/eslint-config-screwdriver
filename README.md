@@ -1,5 +1,5 @@
 # Screwdriver ESLint config
-[![Version][npm-image]][npm-url] ![Downloads][downloads-image] [![Build Status][wercker-image]][wercker-url] [![Open Issues][issues-image]][issues-url] [![Dependency Status][daviddm-image]][daviddm-url] ![License][license-image]
+[![Version][npm-image]][npm-url] ![Downloads][downloads-image] [![Build Status][status-image]][status-url] [![Open Issues][issues-image]][issues-url] [![Dependency Status][daviddm-image]][daviddm-url] ![License][license-image]
 
 > ESLint rules for screwdriver projects
 
@@ -25,7 +25,7 @@ Code licensed under the BSD 3-Clause license. See LICENSE file for terms.
 [license-image]: https://img.shields.io/npm/l/eslint-config-screwdriver.svg
 [issues-image]: https://img.shields.io/github/issues/screwdriver-cd/eslint-config-screwdriver.svg
 [issues-url]: https://github.com/screwdriver-cd/eslint-config-screwdriver/issues
-[wercker-image]: https://app.wercker.com/status/76f9fccc5d63312b6c5a410650533fa0
-[wercker-url]: https://app.wercker.com/project/bykey/76f9fccc5d63312b6c5a410650533fa0
+[status-image]: https://cd.screwdriver.cd/pipelines/21fa4354ce6fc5b7249835d483f65916b3e5a31d/badge
+[status-url]: https://cd.screwdriver.cd/pipelines/21fa4354ce6fc5b7249835d483f65916b3e5a31d
 [daviddm-image]: https://david-dm.org/screwdriver-cd/eslint-config-screwdriver.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/screwdriver-cd/eslint-config-screwdriver
