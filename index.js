@@ -12,6 +12,7 @@ module.exports = {
     },
     rules: {
         'comma-dangle': ['error', 'never'],
+        'class-methods-use-this': 'off',
         indent: ['error', 4],
         'max-len': ['error', { code: 100, ignoreComments: true }],
         'new-cap': ['error', { capIsNewExceptions: ['Given', 'When', 'Then'] }],
