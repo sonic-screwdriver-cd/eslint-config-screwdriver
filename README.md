@@ -25,7 +25,7 @@ Code licensed under the BSD 3-Clause license. See LICENSE file for terms.
 [license-image]: https://img.shields.io/npm/l/eslint-config-screwdriver.svg
 [issues-image]: https://img.shields.io/github/issues/screwdriver-cd/eslint-config-screwdriver.svg
 [issues-url]: https://github.com/screwdriver-cd/eslint-config-screwdriver/issues
-[status-image]: https://cd.screwdriver.cd/pipelines/21fa4354ce6fc5b7249835d483f65916b3e5a31d/badge
-[status-url]: https://cd.screwdriver.cd/pipelines/21fa4354ce6fc5b7249835d483f65916b3e5a31d
+[status-image]: https://cd.screwdriver.cd/pipelines/e22a1975f0de1d19e69e3ae0ac44cdc852c63b0d/badge
+[status-url]: https://cd.screwdriver.cd/pipelines/e22a1975f0de1d19e69e3ae0ac44cdc852c63b0d
 [daviddm-image]: https://david-dm.org/screwdriver-cd/eslint-config-screwdriver.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/screwdriver-cd/eslint-config-screwdriver
