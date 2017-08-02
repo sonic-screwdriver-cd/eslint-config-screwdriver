@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-screwdriver",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "ESLint rules for screwdriver projects",
   "main": "index.js",
   "scripts": {
@@ -37,12 +37,13 @@
     }
   },
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
     "jenkins-mocha": "^4.1.1"
   },
   "dependencies": {
-    "eslint": "^3.15.0",
-    "eslint-config-airbnb-base": "^11.1.0",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
   }
 }

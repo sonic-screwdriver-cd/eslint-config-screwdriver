@@ -14,6 +14,13 @@ module.exports = {
     rules: {
         'comma-dangle': ['error', 'never'],
         'class-methods-use-this': 'off',
+        eqeqeq: ['error', 'always'],
+        'import/newline-after-import': ['off'],
+        'import/no-extraneous-dependencies': ['error', {
+            devDependencies: true,
+            optionalDependencies: false,
+            peerDependencies: false
+        }],
         indent: ['error', 4],
         'max-len': ['error', { code: 100, ignoreComments: true }],
         'new-cap': ['error', { capIsNewExceptions: ['Given', 'When', 'Then', 'Before', 'After'] }],
@@ -31,12 +38,6 @@ module.exports = {
                 ClassDeclaration: false
             }
         }],
-        strict: ['error', 'safe'],
-        'import/no-extraneous-dependencies': ['error', {
-            devDependencies: true,
-            optionalDependencies: false,
-            peerDependencies: false
-        }],
-        'import/newline-after-import': ['off']
+        strict: ['error', 'safe']
     }
 };
