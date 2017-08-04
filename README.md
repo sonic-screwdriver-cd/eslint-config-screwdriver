@@ -6,7 +6,7 @@
 ## Usage
 
 ```bash
-npm install eslint-config-screwdriver
+npm install --save-dev eslint-config-screwdriver
 ```
 
 ## Testing
@@ -14,6 +14,9 @@ npm install eslint-config-screwdriver
 ```bash
 npm test
 ```
+
+## Changelog
+* 3.0 - Update to eslint@4.3.0, eslint-config-airbnb-base@11.3.1, eslint-plugin-import@2.7.0
 
 ## License
 
