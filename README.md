@@ -16,6 +16,7 @@ npm test
 ```
 
 ## Changelog
+* 4.0 - Update to eslint@5.8.0, eslint-config-airbnb-base@13.1.0, eslint-plugin-import@2.14.0
 * 3.0 - Update to eslint@4.3.0, eslint-config-airbnb-base@11.3.1, eslint-plugin-import@2.7.0
 
 ## License
