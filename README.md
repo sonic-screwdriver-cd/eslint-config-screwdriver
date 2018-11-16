@@ -1,7 +1,7 @@
 # Screwdriver ESLint config
 [![Version][npm-image]][npm-url] ![Downloads][downloads-image] [![Build Status][status-image]][status-url] [![Open Issues][issues-image]][issues-url] [![Dependency Status][daviddm-image]][daviddm-url] ![License][license-image]
 
-> ESLint rules for screwdriver projects
+> ESLint rules for Screwdriver projects
 
 ## Usage
 
