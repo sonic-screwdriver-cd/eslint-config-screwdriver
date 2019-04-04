@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "chai": "^4.0.2",
-    "jenkins-mocha": "^6.0.0"
+    "jenkins-mocha": "^7.0.0"
   },
   "dependencies": {
     "eslint": "^5.8.0",
