@@ -20,17 +20,23 @@ module.exports = {
         complexity: 'warn',
         eqeqeq: ['error', 'always'],
         'import/newline-after-import': ['off'],
-        'import/no-extraneous-dependencies': ['error', {
-            devDependencies: true,
-            optionalDependencies: false,
-            peerDependencies: false
-        }],
+        'import/no-extraneous-dependencies': [
+            'error',
+            {
+                devDependencies: true,
+                optionalDependencies: false,
+                peerDependencies: false
+            }
+        ],
         indent: ['error', 4],
         'max-len': ['error', { code: 100, ignoreComments: true }],
         'max-lines-per-function': 'warn',
         'max-params': 'warn',
         'max-statements': 'warn',
-        'new-cap': ['error', { capIsNewExceptions: ['Given', 'When', 'Then', 'Before', 'After'] }],
+        'new-cap': [
+            'error',
+            { capIsNewExceptions: ['Given', 'When', 'Then', 'Before', 'After'] }
+        ],
         'newline-after-var': ['error', 'always'],
         'newline-before-return': 'error',
         'no-bitwise': 'error',
@@ -45,13 +51,16 @@ module.exports = {
                 tabWidth: 4
             }
         ],
-        'require-jsdoc': ['error', {
-            require: {
-                FunctionDeclaration: true,
-                MethodDefinition: false,
-                ClassDeclaration: false
+        'require-jsdoc': [
+            'error',
+            {
+                require: {
+                    FunctionDeclaration: true,
+                    MethodDefinition: false,
+                    ClassDeclaration: false
+                }
             }
-        }],
+        ],
         strict: ['error', 'safe']
     }
 };
